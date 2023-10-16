@@ -668,6 +668,10 @@ footer .icon__text{
     align-items: center;
     
 }
+
+.clima__api{
+    font-size: 10px;
+}
 @media (min-width: 1200px) {
     #caracteristicas{
         background-position: 700px 120px;
@@ -707,5 +711,8 @@ footer .icon__text{
         
     }
 
+    .clima__api{
+        font-size: 10px;
+    }
     
 }

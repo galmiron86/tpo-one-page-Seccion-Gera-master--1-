@@ -1,5 +1,5 @@
 const apiKey = 'b10dead2496814f4480c0df14eae72d0';
-const ciudad = 'buenos_aires';
+const ciudad = 'buenos aires';
 
 fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`)
   .then(response => response.json())
